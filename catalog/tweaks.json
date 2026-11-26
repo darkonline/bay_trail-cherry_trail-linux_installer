@@ -1,0 +1,78 @@
+[
+  {
+    "id": "hardware",
+    "name": "Железо: тачскрин, звук, подсветка, курсор, масштаб, фильтр дрожания тача, глубокий сон",
+    "devices": ["digma-citi-1804"],
+    "families": ["pmos"],
+    "default": true,
+    "required": true,
+    "notes": "Основа: без этого не работают тачскрин и звук."
+  },
+  {
+    "id": "bluetooth",
+    "name": "Bluetooth (сборка модуля под ядро, ~2 мин на планшете)",
+    "devices": ["digma-citi-1804"],
+    "families": ["pmos"],
+    "default": false,
+    "required": false,
+    "notes": "Можно включить позже."
+  },
+  {
+    "id": "boot-polish",
+    "name": "Плавная загрузка: без текста и меню, логотип, автовход с экраном блокировки",
+    "devices": ["digma-citi-1804"],
+    "uis": ["pmos-phosh"],
+    "default": true,
+    "required": false,
+    "notes": "Только для Phosh."
+  },
+  {
+    "id": "phoc",
+    "name": "Пропатченный phoc: поворот как в Windows, логотип при запуске (сборка ~15 мин, ~150 пакетов)",
+    "devices": ["digma-citi-1804"],
+    "uis": ["pmos-phosh"],
+    "default": false,
+    "required": false,
+    "notes": "Только для Phosh. Долго собирается на планшете."
+  },
+  {
+    "id": "app-office",
+    "name": "Приложение: LibreOffice (~540 МБ)",
+    "devices": ["digma-citi-1804", "generic"],
+    "families": ["pmos"],
+    "default": false,
+    "required": false
+  },
+  {
+    "id": "app-utils",
+    "name": "Приложения: 7-Zip, архиватор, диспетчер задач, снимки экрана",
+    "devices": ["digma-citi-1804", "generic"],
+    "families": ["pmos"],
+    "default": false,
+    "required": false
+  },
+  {
+    "id": "app-youtube",
+    "name": "Приложения: YouTube без браузера (Pipeline + mpv, аппаратное видео)",
+    "devices": ["digma-citi-1804"],
+    "families": ["pmos"],
+    "default": false,
+    "required": false
+  },
+  {
+    "id": "app-telegram",
+    "name": "Приложение: Telegram (Flathub)",
+    "devices": ["digma-citi-1804", "generic"],
+    "families": ["pmos"],
+    "default": false,
+    "required": false
+  },
+  {
+    "id": "app-spotify",
+    "name": "Приложение: Spotify (Flathub, с исправлением звука)",
+    "devices": ["digma-citi-1804", "generic"],
+    "families": ["pmos"],
+    "default": false,
+    "required": false
+  }
+]

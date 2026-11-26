@@ -1,0 +1,11 @@
+[
+  {
+    "id": "pmos-phosh",
+    "name": "postmarketOS v26.06 + Phosh (сенсорная оболочка)",
+    "listing": "https://images.nura.eco/bpo/v26.06/generic-x86_64/phosh/",
+    "file_suffix": "-phosh-generic-x86_64-lts.img.xz",
+    "kernel": "linux-lts (Alpine)",
+    "tested_on": ["digma-citi-1804"],
+    "family": "pmos"
+  }
+]

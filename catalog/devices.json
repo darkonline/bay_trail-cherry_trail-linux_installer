@@ -1,0 +1,18 @@
+[
+  {
+    "id": "digma-citi-1804",
+    "name": "Digma CITI 1804 (CS1069EW)",
+    "platform": "Cherry Trail",
+    "match": { "manufacturer": "Digma", "model": "CITI 1804 CS1069EW" },
+    "status": "tested",
+    "notes": "Проверено: postmarketOS v26.06 + Phosh. Камеры не работают (неисправность конкретного экземпляра). HDMI-звук и микрофон гарнитуры не проверялись."
+  },
+  {
+    "id": "generic",
+    "name": "Другой планшет на Bay Trail / Cherry Trail",
+    "platform": "any",
+    "match": {},
+    "status": "experimental",
+    "notes": "Только общие настройки. Тачскрин, звук и поворот могут потребовать отдельной настройки."
+  }
+]

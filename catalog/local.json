@@ -1,0 +1,412 @@
+{
+    "generated":  "2026-11-26 16:35",
+    "source":  "bytcht-tablet-db @ локальная копия от 2026-11-26",
+    "devices":  [
+                    {
+                        "key":  "digma/citi-1802",
+                        "name":  "Digma CITI 1802 (ES1061EG)",
+                        "brand":  "Digma",
+                        "status":  "driver-pack",
+                        "platform":  "Cherry Trail",
+                        "windows_bits":  "64",
+                        "match":  [
+
+                                  ],
+                        "touch_controller":  "Тачскрин Silead",
+                        "touch_firmware":  [
+                                               {
+                                                   "git_blob_sha1":  "70211b2009ae2b3b5f90a1e983ec779412e3effa",
+                                                   "size":  39600,
+                                                   "file":  "local-fw/70211b2009ae2b3b5f90a1e983ec779412e3effa.fw",
+                                                   "known":  "",
+                                                   "also_in":  [
+
+                                                               ]
+                                               }
+                                           ],
+                        "touch_props":  null,
+                        "touch_note":  "",
+                        "links":  [
+
+                                  ]
+                    },
+                    {
+                        "key":  "digma/citi-1803",
+                        "name":  "Digma CITI 1803 (ES1063EG)",
+                        "brand":  "Digma",
+                        "status":  "driver-pack",
+                        "platform":  "Cherry Trail",
+                        "windows_bits":  "64",
+                        "match":  [
+
+                                  ],
+                        "touch_controller":  "",
+                        "touch_firmware":  [
+
+                                           ],
+                        "touch_props":  null,
+                        "touch_note":  "Драйвера тача в пачке нет (возможно, HID-over-I2C со встроенным драйвером Windows — не проверено).",
+                        "links":  [
+
+                                  ]
+                    },
+                    {
+                        "key":  "digma/citi-1804",
+                        "name":  "Digma CITI 1804 (CS1069EW)",
+                        "brand":  "Digma",
+                        "status":  "submitted",
+                        "platform":  "Cherry Trail",
+                        "windows_bits":  "32",
+                        "match":  [
+                                      {
+                                          "field":  "SYS_VENDOR",
+                                          "value":  "Digma",
+                                          "exact":  true
+                                      },
+                                      {
+                                          "field":  "PRODUCT_NAME",
+                                          "value":  "CITI 1804 CS1069EW",
+                                          "exact":  true
+                                      },
+                                      {
+                                          "field":  "BOARD_NAME",
+                                          "value":  "J210Z",
+                                          "exact":  true
+                                      }
+                                  ],
+                        "touch_controller":  "Тачскрин Silead",
+                        "touch_firmware":  [
+                                               {
+                                                   "git_blob_sha1":  "1d08cb5911400c1d28d91032e393166949c92399",
+                                                   "size":  36960,
+                                                   "file":  "local-fw/1d08cb5911400c1d28d91032e393166949c92399.fw",
+                                                   "known":  "ядро: Myria MY8307; PR: Digma CITI 1804 (CS1069EW), board J210Z",
+                                                   "also_in":  [
+
+                                                               ]
+                                               }
+                                           ],
+                        "touch_props":  "touchscreen-size-x=1728:touchscreen-size-y=1152:touchscreen-swapped-x-y:silead,home-button",
+                        "touch_note":  "",
+                        "links":  [
+                                      "https://github.com/onitake/gsl-firmware/pull/269,kernel patch: platform/x86: touchscreen_dmi: Add info for the Digma CITI 1804 tablet (sent 2026-11-25)"
+                                  ]
+                    },
+                    {
+                        "key":  "digma/citi-1808",
+                        "name":  "Digma CITI 1808 (ES1028EW)",
+                        "brand":  "Digma",
+                        "status":  "driver-pack",
+                        "platform":  "Cherry Trail",
+                        "windows_bits":  "64",
+                        "match":  [
+
+                                  ],
+                        "touch_controller":  "Тачскрин Silead",
+                        "touch_firmware":  [
+                                               {
+                                                   "git_blob_sha1":  "799ef9500ee49b55095c4bb232a34e8838085b51",
+                                                   "size":  36960,
+                                                   "file":  "local-fw/799ef9500ee49b55095c4bb232a34e8838085b51.fw",
+                                                   "known":  "",
+                                                   "also_in":  [
+
+                                                               ]
+                                               }
+                                           ],
+                        "touch_props":  null,
+                        "touch_note":  "",
+                        "links":  [
+
+                                  ]
+                    },
+                    {
+                        "key":  "digma/citi-e200",
+                        "name":  "Digma CITI E200 (ES2000EW)",
+                        "brand":  "Digma",
+                        "status":  "driver-pack",
+                        "platform":  "Cherry Trail",
+                        "windows_bits":  "64",
+                        "match":  [
+
+                                  ],
+                        "touch_controller":  "Тачскрин Silead",
+                        "touch_firmware":  [
+                                               {
+                                                   "git_blob_sha1":  "94fce7998383ebf6affe6bd0410decf01c0cbf42",
+                                                   "size":  38016,
+                                                   "file":  "local-fw/94fce7998383ebf6affe6bd0410decf01c0cbf42.fw",
+                                                   "known":  "gsl-firmware: Odys Fusion Win 12 - 2in1",
+                                                   "also_in":  [
+
+                                                               ]
+                                               }
+                                           ],
+                        "touch_props":  null,
+                        "touch_note":  "",
+                        "links":  [
+
+                                  ]
+                    },
+                    {
+                        "key":  "digma/citi-e201",
+                        "name":  "Digma CITI E201 (ES2001EW)",
+                        "brand":  "Digma",
+                        "status":  "driver-pack",
+                        "platform":  "Cherry Trail",
+                        "windows_bits":  "64",
+                        "match":  [
+
+                                  ],
+                        "touch_controller":  "",
+                        "touch_firmware":  [
+
+                                           ],
+                        "touch_props":  null,
+                        "touch_note":  "Драйвера тача в пачке нет (возможно, HID-over-I2C со встроенным драйвером Windows — не проверено).",
+                        "links":  [
+
+                                  ]
+                    },
+                    {
+                        "key":  "digma/citi-e210",
+                        "name":  "Digma CITI E210 (ES2005EW)",
+                        "brand":  "Digma",
+                        "status":  "driver-pack",
+                        "platform":  "Cherry Trail",
+                        "windows_bits":  "32",
+                        "match":  [
+
+                                  ],
+                        "touch_controller":  "",
+                        "touch_firmware":  [
+
+                                           ],
+                        "touch_props":  null,
+                        "touch_note":  "Драйвера тача в пачке нет (возможно, HID-over-I2C со встроенным драйвером Windows — не проверено).",
+                        "links":  [
+
+                                  ]
+                    },
+                    {
+                        "key":  "digma/citi-e220",
+                        "name":  "Digma CITI E220 (ES2006EW)",
+                        "brand":  "Digma",
+                        "status":  "driver-pack",
+                        "platform":  "Cherry Trail",
+                        "windows_bits":  "64",
+                        "match":  [
+
+                                  ],
+                        "touch_controller":  "Тачскрин Silead",
+                        "touch_firmware":  [
+                                               {
+                                                   "git_blob_sha1":  "b23317193ce4514645926b9bbc25701f46194b93",
+                                                   "size":  36960,
+                                                   "file":  "local-fw/b23317193ce4514645926b9bbc25701f46194b93.fw",
+                                                   "known":  "",
+                                                   "also_in":  [
+
+                                                               ]
+                                               }
+                                           ],
+                        "touch_props":  null,
+                        "touch_note":  "",
+                        "links":  [
+
+                                  ]
+                    },
+                    {
+                        "key":  "digma/citi-e222",
+                        "name":  "Digma CITI E222 (ES2016EW)",
+                        "brand":  "Digma",
+                        "status":  "driver-pack",
+                        "platform":  "Cherry Trail",
+                        "windows_bits":  "64",
+                        "match":  [
+
+                                  ],
+                        "touch_controller":  "Тачскрин Silead",
+                        "touch_firmware":  [
+                                               {
+                                                   "git_blob_sha1":  "7f3600d3d1cfb076deaf7f618e6742eb6162e10b",
+                                                   "size":  38544,
+                                                   "file":  "local-fw/7f3600d3d1cfb076deaf7f618e6742eb6162e10b.fw",
+                                                   "known":  "",
+                                                   "also_in":  [
+
+                                                               ]
+                                               }
+                                           ],
+                        "touch_props":  null,
+                        "touch_note":  "",
+                        "links":  [
+
+                                  ]
+                    },
+                    {
+                        "key":  "digma/citi-e400",
+                        "name":  "Digma CITI E400 (ES4003EW)",
+                        "brand":  "Digma",
+                        "status":  "driver-pack",
+                        "platform":  "Cherry Trail",
+                        "windows_bits":  "64",
+                        "match":  [
+
+                                  ],
+                        "touch_controller":  "",
+                        "touch_firmware":  [
+
+                                           ],
+                        "touch_props":  null,
+                        "touch_note":  "Драйвера тача в пачке нет (возможно, HID-over-I2C со встроенным драйвером Windows — не проверено).",
+                        "links":  [
+
+                                  ]
+                    },
+                    {
+                        "key":  "digma/citi-e402",
+                        "name":  "Digma CITI E402 (ET4013EW)",
+                        "brand":  "Digma",
+                        "status":  "driver-pack",
+                        "platform":  "Cherry Trail",
+                        "windows_bits":  "32",
+                        "match":  [
+
+                                  ],
+                        "touch_controller":  "",
+                        "touch_firmware":  [
+
+                                           ],
+                        "touch_props":  null,
+                        "touch_note":  "Драйвера тача в пачке нет (возможно, HID-over-I2C со встроенным драйвером Windows — не проверено).",
+                        "links":  [
+
+                                  ]
+                    },
+                    {
+                        "key":  "digma/eve-10-a200",
+                        "name":  "Digma EVE 10 A200 (ES1052EW)",
+                        "brand":  "Digma",
+                        "status":  "driver-pack",
+                        "platform":  "Cherry Trail",
+                        "windows_bits":  "64",
+                        "match":  [
+
+                                  ],
+                        "touch_controller":  "",
+                        "touch_firmware":  [
+
+                                           ],
+                        "touch_props":  null,
+                        "touch_note":  "Драйвера тача в пачке нет (возможно, HID-over-I2C со встроенным драйвером Windows — не проверено).",
+                        "links":  [
+
+                                  ]
+                    },
+                    {
+                        "key":  "digma/eve-10-a201",
+                        "name":  "Digma EVE 10 A201 (ES1053EW)",
+                        "brand":  "Digma",
+                        "status":  "driver-pack",
+                        "platform":  "Cherry Trail",
+                        "windows_bits":  "64",
+                        "match":  [
+
+                                  ],
+                        "touch_controller":  "",
+                        "touch_firmware":  [
+
+                                           ],
+                        "touch_props":  null,
+                        "touch_note":  "Драйвера тача в пачке нет (возможно, HID-over-I2C со встроенным драйвером Windows — не проверено).",
+                        "links":  [
+
+                                  ]
+                    },
+                    {
+                        "key":  "digma/eve-10-a203t",
+                        "name":  "Digma EVE 10 A203T (ES1239EL)",
+                        "brand":  "Digma",
+                        "status":  "driver-pack",
+                        "platform":  "Cherry Trail",
+                        "windows_bits":  "64",
+                        "match":  [
+
+                                  ],
+                        "touch_controller":  "Тачскрин Silead",
+                        "touch_firmware":  [
+                                               {
+                                                   "git_blob_sha1":  "ab697cc8ebca60792bfbfc2a729c0cec929a0b25",
+                                                   "size":  41184,
+                                                   "file":  "local-fw/ab697cc8ebca60792bfbfc2a729c0cec929a0b25.fw",
+                                                   "known":  "",
+                                                   "also_in":  [
+
+                                                               ]
+                                               }
+                                           ],
+                        "touch_props":  null,
+                        "touch_note":  "",
+                        "links":  [
+
+                                  ]
+                    },
+                    {
+                        "key":  "digma/eve-10-a204t",
+                        "name":  "Digma EVE 10 A204T (ES1240EW)",
+                        "brand":  "Digma",
+                        "status":  "driver-pack",
+                        "platform":  "Cherry Trail",
+                        "windows_bits":  "64",
+                        "match":  [
+
+                                  ],
+                        "touch_controller":  "Тачскрин Silead",
+                        "touch_firmware":  [
+                                               {
+                                                   "git_blob_sha1":  "33ec0ccbe4c64cd6839a5d86d2bc4d33aea312da",
+                                                   "size":  41184,
+                                                   "file":  "local-fw/33ec0ccbe4c64cd6839a5d86d2bc4d33aea312da.fw",
+                                                   "known":  "",
+                                                   "also_in":  [
+
+                                                               ]
+                                               }
+                                           ],
+                        "touch_props":  null,
+                        "touch_note":  "",
+                        "links":  [
+
+                                  ]
+                    },
+                    {
+                        "key":  "digma/eve-10-a400t",
+                        "name":  "Digma EVE 10 A400T (ES1247EW)",
+                        "brand":  "Digma",
+                        "status":  "driver-pack",
+                        "platform":  "Cherry Trail",
+                        "windows_bits":  "64",
+                        "match":  [
+
+                                  ],
+                        "touch_controller":  "Тачскрин Silead",
+                        "touch_firmware":  [
+                                               {
+                                                   "git_blob_sha1":  "794463947a5c8313568d44fb70d86c408eb374d1",
+                                                   "size":  41448,
+                                                   "file":  "local-fw/794463947a5c8313568d44fb70d86c408eb374d1.fw",
+                                                   "known":  "",
+                                                   "also_in":  [
+
+                                                               ]
+                                               }
+                                           ],
+                        "touch_props":  null,
+                        "touch_note":  "",
+                        "links":  [
+
+                                  ]
+                    }
+                ]
+}
